@@ -6,8 +6,9 @@ int main(/*int argc, char** argv*/){
     /*cout << "Hello world" << endl;*/
     
     int age;
+    cout<<"age";
     cin>>age;
-    if (age==17){ cout<<"you are selected";}
+    if (age<=18){ cout<<"you are selected";}
     else{cout<<"not";}
     
     
